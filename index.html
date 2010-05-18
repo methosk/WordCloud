@@ -1,0 +1,403 @@
+<html>
+<head><title>AnyClip Cloud Generator</title></head>
+<body>
+<h1>AnyClip Cloud Generator</h1>
+<form method="POST" action="generate.php">
+<label>Width: <input name="width" value="2000"></label><br>
+<label>Height: <input name="height" value="1000"></label><br><br>
+<label>Text:<br><textarea name="text" rows="10">
+alert
+alias
+Apple
+assembly
+auditorium
+authorization~not~recognized
+auto~pilot~malfunction
+backpack
+bandage
+beam~down
+beam~down
+beam~down
+beam~up
+beam~up
+beam~up
+beam~up
+bedroom
+Beer
+Beer
+Blow~up
+Blow~up
+Blow~up
+bones
+Budweiser~Brewery~Anheuser-Busch~Inc
+cadet~uniform
+cadet~uniform
+Cal-State~University
+Captain-cadet
+Captain-Commander
+Captain-Commander
+Captain-Commander
+Captain-Commander
+Captain-crew
+Captain-crew
+Captain-Doctor
+Captain-first~officer
+captain's~log
+Car
+cave
+Chase
+clipboard
+Collapse
+Commander-cadet
+Commander-underlings
+Competitor
+Competitor
+Competitor
+cotton~pads
+Crash
+Cry
+Deform
+delta~vega
+delta~vega
+Die
+dissuade
+Dodger~Stadium,
+dress
+Drill
+drilling~platform
+drilling~platform
+drilling~platform
+drilling~platform
+drilling~platform
+drilling~platform
+drink
+Drive
+drop~suits
+Drown
+Earth~Space~dock
+easter~egg
+elevator
+Enemy
+Enemy
+Enemy
+Enemy
+Enemy
+Enemy
+bridge
+bridge
+bridge
+bridge
+bridge
+bridge
+bridge
+bridge
+enterprise~engine~room
+escape
+Evacuate
+Fall
+Fall
+family
+Father-Son
+Father-Son
+Father-Son
+Fight
+Fight
+Fight
+Fight
+Fight
+Fight
+Fight
+Fight
+Fight
+Fight
+flask
+Friend
+Friend
+Friend
+Friend
+Friend
+Friend
+Friend
+Friend
+Friend
+Friends
+Friends
+Friends
+Friends
+future~spock~tells~his~story
+give~birth
+goggles
+Grab~boobs
+green
+Greeting
+Greeting
+grieve
+Gun
+headscarf
+headset
+Hit
+hospital~gown
+Hostage
+Hurt
+hypospray
+I'm~a~doctor,~not~a
+I'm~giving~it~all~she's~got~captain
+Inject
+Insectoid
+journey~to~babel
+Jump
+Jump
+Jump
+Keenser
+kirk~and~spock~argue
+kirk~gets~spock~to~snap
+Kiss
+Kiss
+launch
+Lingerie
+Lingerie
+Lingerie
+live~long~and~prosper
+Long~Beach~City~Hall
+Long~Beach~City~Hall
+Lovers
+Lovers
+Lovers
+Lovers
+Make~out
+Manuver
+medal
+medic~uniform
+medic~uniform
+medical~bay
+Minister-spock
+Mother-Son
+Motorcycle
+Motorcycle
+name
+name~signs
+Narada
+Narada
+Narada
+Narada
+Narada
+narada
+Narada
+Narada
+Narada
+Narada
+nemesis
+nero~interrogates~pike
+Nyota
+order
+Orion~female
+parachute
+parachute
+parachute
+parachute
+parka
+parka
+Phaser
+pike's~motivational~talk
+plan
+Polarilla
+police~uniform
+Police-Boy
+Prepare
+projection
+promote
+pub
+Push
+rack
+recognize
+red~matter
+red~matter
+red~matter
+red~matter
+report
+Rescue
+resign
+rivals
+rivals
+road
+romulans
+roof
+roommates
+russian~accent
+sabotage
+Scare
+school
+Schoolmates
+Shoot
+Shoot
+Shoot
+Shoot
+Shoot
+Shoot
+Shot
+shot
+Shuttle
+Shuttle
+Shuttle
+Shuttle
+Shuttle
+Shuttle
+Shuttle
+shuttle~hanger
+sick~bay
+simulation~room
+Sneak
+space,~the~final~frontier
+space,~the~final~frontier
+Spaceship
+Spaceship
+spaceship~console~alerts
+spaceship~model
+spock's~home
+spock's~ship
+star~fleet~academy
+star~fleet~base
+star~trek
+star~trek
+Starfleet~Academy
+swollen~hands
+Sword
+take~control
+take~off
+take~off
+take~off
+tape~recorder
+Teral'n
+terminated
+Test
+Test
+the~naked~time
+the~wrath~of~khan
+the~wrath~of~khan
+Theme~from~star~trek
+Threat
+Time~Travel
+tongs
+torch
+Torture
+transporter~room
+transporter~room
+transporter~room
+transporter~room
+tricorder
+tricorder
+uhura's~name
+USS~Enterprise
+USS~Enterprise
+USS~Enterprise
+USS~Enterprise
+USS~Enterprise
+USS~Enterprise
+USS~Enterprise
+USS~Farragut
+USS~Kelvin
+USS~Kelvin
+USS~Kelvin
+USS~Kelvin
+valve~controls
+Vasquez~Rocks~Natural~Area~Park
+vials
+Vision
+vulcan
+vulcan
+vulcan~mind~meld
+vulcan~science~academy
+vulcan~student~robes
+warning
+warning
+warp~core
+Warp~speed
+Warp~speed
+wheelchair
+wheelchair
+Wife-Husband
+Wife-Husband
+Wife-Husband
+wool~cap
+young~and~older~spock
+ZX2C4
+ZX2C4
+ZX2C4
+ZX2C4
+ZX2C4
+ZX2C4
+ZX2C4
+ZX2C4
+ZX2C4
+ZX2C4
+ZX2C4
+ZX2C4
+ZX2C4
+ZX2C4
+</textarea></label><br>
+<label>Configuration:<br><textarea name="configuration" cols="80" rows="15">
+# Lines with the hash in front don't do anything. They are comments.
+# Lines without the hash, you should examine.
+
+# Possible choices are:
+# Myriad/MyriadPro-Black.ttf       Myriad/MyriadPro-It.ttf
+# Myriad/MyriadPro-BlackIt.ttf     Myriad/MyriadPro-Light.ttf
+# Myriad/MyriadPro-Bold.ttf        Myriad/MyriadPro-LightIt.ttf
+# Myriad/MyriadPro-BoldCond.ttf    Myriad/MyriadPro-Regular.ttf
+# Myriad/MyriadPro-BoldCondIt.ttf  Myriad/MyriadPro-Semibold.ttf
+# Myriad/MyriadPro-BoldIt.ttf      Myriad/MyriadPro-SemiboldIt.ttf
+# Myriad/MyriadPro-Cond.ttf        Myriad/MyriadStd-Sketch.ttf
+# Myriad/MyriadPro-CondIt.ttf      Myriad/MyriadStd-Tilt.ttf
+font: Myriad/MyriadPro-Black.ttf
+
+# This means it's going to count the frequency of words. Don't touch this.
+format: text
+
+# Text encoding. Again, don't touch this one.
+inputencoding: UTF-8
+
+# Case folding -- send everything to upper or lower case
+# Possible values: Upper, Lower
+# If you want to use this, remove the hash in front of the line below
+#casefold: Lower
+
+# Background color
+# Colors should be specified as HTML colors.
+background: 000000
+
+# Palette
+# These are the colors of the words, also as HTML colors.
+# You can have this be only 1 color if you want,
+# or add a bunch of colors by having the colors seperated by a comma.
+palette: FFFFFF
+
+# Maximum number of words to show
+maxwords: 800
+
+# The "placement strategy" to use
+# Possible values:
+#   HorizontalCenterLine
+#   VerticalCenterLine
+#   Alphabetical
+#   AlphabeticalVertical
+#   Center
+# Capitalization and spelling are significant.
+placement: HorizontalCenterLine
+
+# The perimeter shape, either BLOBBY or SQUARISH
+shape: BLOBBY
+
+# The "orientation strategy" to use.
+# Possible values:
+#       HORIZONTAL
+#       MOSTLY_HORIZONTAL
+#       HALF_AND_HALF
+#       MOSTLY_VERTICAL
+#       VERTICAL
+#       ANY_WHICH_WAY
+orientation: HORIZONTAL
+</textarea></label><br>
+<input type="submit" value="Make Me A Word Cloud!" style="font-size: 14pt; font-weight: bold;">
+</form>
+</body>
+</html>
